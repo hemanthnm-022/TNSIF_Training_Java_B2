@@ -1,6 +1,6 @@
-package orj.tnif.acc.c2tc.javabasics;
+package org.tnsif.acc.c2tc.javabasics;
 
-public class Variables {
+public class variable {
 	int price=10;
 	void print()
 	{
@@ -11,7 +11,7 @@ public class Variables {
 	
 	public static void main(String [] args)
 	{
-		Variables obj=new Variables();
+		variable obj=new variable();
 		System.out.println(obj.price);
 		obj.print();
 		System.out.println(message);
